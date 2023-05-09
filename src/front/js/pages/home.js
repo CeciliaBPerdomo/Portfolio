@@ -5,7 +5,6 @@ import avatar from "../../img/avatar-sinfondo.png"
 import lkn from "../../img/linkedin.png"
 import git from "../../img/git.jpg"
 import insta from "../../img/instagram.png"
-import { Link } from "react-router-dom";
 
 export const Home = () => {
 	const { store, actions } = useContext(Context);
@@ -14,7 +13,8 @@ export const Home = () => {
 	return (
 		<>
 		<div className="principal">
-			<div className="container text-center" style={{marginTop: "45px", backgroundColor: "#F4EADC"}}>
+			<div className="container text-center" 
+			style={{marginTop: "45px", backgroundColor: "#F4EADC"}}>
 				<div className="row">
 					<div className="col">
 						<p style={{fontFamily: "Libre Baskerville, serif", 
