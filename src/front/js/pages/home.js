@@ -25,36 +25,31 @@ export const Home = () => {
 						fontSize: "21px"}}> 
 						{text}
 						</p>
-					</div>
+						<br />
 
-					<div className="col">
-						<img src={avatar} />
-					</div>
-				</div>
-
-				<div className="row">
-					<div className="col">
-						<div className="card-group" style={{
-							width: "380px", 
-							height: "120px",
-							marginLeft: "80px",
-							marginTop: "-120px"
-							}}>
+						<div className="card-group">
 							<div className="card">
-								{/* <Link to="https://www.linkedin.com/in/cecilia-perdomo/"> */}
-									<img src={lkn} className="card-img-top" style={{width: "120px", padding: "5px"}} /> 
-								{/* </Link> */}
+								<a href="https://www.linkedin.com/in/cecilia-perdomo/">
+									<img src={lkn} className="align-self-center" style={{width: "120px", padding: "5px"}} /> 
+								</a>
 							</div>
 							<div className="card">
-								<img src={git} className="card-img-top" style={{width: "120px", padding: "5px"}} />
+								<a href="https://github.com/CeciliaBPerdomo">
+									<img src={git} className="align-self-center" style={{width: "120px", padding: "5px"}} />
+								</a>
 							</div>
 							<div className="card">
-								<img src={insta} className="card-img-top" style={{width: "120px", padding: "5px"}} />
+								<img src={insta} className="align-self-center" style={{width: "120px", padding: "5px"}} />
 							</div>
 						</div>
 					</div>
+
+					<div className="col align-self-end">
+						<img src={avatar}/>
+					</div>
 				</div>
 
+				
 			<br />
 		</div>
 		</div>
