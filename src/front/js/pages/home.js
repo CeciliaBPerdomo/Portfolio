@@ -1,26 +1,26 @@
 import React, { useContext } from "react";
 import { Context } from "../store/appContext";
-import rigoImageUrl from "../../img/rigo-baby.jpg";
 import "../../styles/home.css";
+import avatar from "../../img/avatar-sinfondo.png"
 
 export const Home = () => {
 	const { store, actions } = useContext(Context);
 
 	return (
-		<div className="text-center mt-5">
-			<h1>Hello Rigo!!</h1>
-			<p>
-				<img src={rigoImageUrl} />
-			</p>
-			<div className="alert alert-info">
-				{store.message || "Loading message from the backend (make sure your python backend is running)..."}
+		<>
+			<div className="container text-center" style={{marginTop: "45px"}}>
+				<div className="row">
+					<div className="col">
+					Column
+					</div>
+					<div className="col">
+					Column
+					</div>
+					<div className="col">
+					<img src={avatar} />
+					</div>
+				</div>
 			</div>
-			<p>
-				This boilerplate comes with lots of documentation:{" "}
-				<a href="https://start.4geeksacademy.com/starters/react-flask">
-					Read documentation
-				</a>
-			</p>
-		</div>
+		</>
 	);
 };
