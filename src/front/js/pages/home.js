@@ -34,22 +34,22 @@ export const Home = () => {
 
 				<div className="row">
 					<div className="col">
-						<div class="card-group" style={{
+						<div className="card-group" style={{
 							width: "380px", 
 							height: "120px",
 							marginLeft: "80px",
 							marginTop: "-120px"
 							}}>
-							<div class="card">
+							<div className="card">
 								{/* <Link to="https://www.linkedin.com/in/cecilia-perdomo/"> */}
-									<img src={lkn} class="card-img-top" style={{width: "120px", padding: "5px"}} /> 
+									<img src={lkn} className="card-img-top" style={{width: "120px", padding: "5px"}} /> 
 								{/* </Link> */}
 							</div>
-							<div class="card">
-								<img src={git} class="card-img-top" style={{width: "120px", padding: "5px"}} />
+							<div className="card">
+								<img src={git} className="card-img-top" style={{width: "120px", padding: "5px"}} />
 							</div>
-							<div class="card">
-								<img src={insta} class="card-img-top" style={{width: "120px", padding: "5px"}} />
+							<div className="card">
+								<img src={insta} className="card-img-top" style={{width: "120px", padding: "5px"}} />
 							</div>
 						</div>
 					</div>
