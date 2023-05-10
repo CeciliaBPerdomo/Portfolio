@@ -31,6 +31,29 @@ export const AboutMe = () => {
                         <img src={flecha} style={{width: "55px"}}/>
                     </div>
                 </div>
+
+                <div className="row">
+                    <div className="col">
+                        <p style={{fontFamily: "Nanum Gothic Coding, monospace", 
+						fontSize: "21px", textAlign: "left"}}>
+                        <br /><br />
+                        Como te definirías? <br />
+                        Entusiasta, investigadora y curiosa por naturaleza. Constante y detallista ... y a veces creativa.
+
+                        <br /><br />
+                        Pero ... y por que te dedicas a esto?<br />
+                        Me encanta saber, que en la programación, el único límite para crear es la imaginación. 
+
+                        <br /><br />
+                        No te da miedo? <br />
+                        Si, claro, pero de a poco somos cada vez mas las mujeres que nos animamos a hacer girar la rueda en este mundo de tecnología.
+
+                        <br /><br />
+                        Que estudiaste para llegar hasta aca? <br />
+                        
+                    </p>
+                    </div>
+                </div>
             </div>
             < br/>  < br/>
         </div>
