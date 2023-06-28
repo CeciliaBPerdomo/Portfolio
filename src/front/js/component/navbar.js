@@ -3,13 +3,40 @@ import { Link } from "react-router-dom";
 
 export const Navbar = () => {
 	return (
-		<nav className="navbar navbar-light bg-light">
-			<div className="container d-flex justify-content-end">
-				<p style={{fontSize: "16px", marginTop: "15px"}}>
-				<Link to={"/"} style={{textDecoration: "none", color: "black"}}>
-				Home</Link> | <Link to={"/acercaDeMi"} style={{textDecoration: "none", color: "black"}}>Acerca de mí</Link> | Proyectos | Servicios | Contacto |
-				</p>
+		<div className="container">
+		<nav className="navbar">
+			<div className="container d-flex justify-content-end text-center">		
+				<div className="row" style={{fontSize: "22px", marginTop: "15px"}}>
+
+					<div className="col" >
+						<Link to={"/"} style={{textDecoration: "none", color: "black"}}>
+							Home
+						</Link>
+					</div>
+
+					<div className="col">
+						<Link to={"/proyectos"} style={{textDecoration: "none", color: "black"}}>
+							Proyectos
+						</Link>
+					</div>
+
+					<div className="col">
+						Servicios
+					</div>
+
+					<div className="col">
+						<Link to={"/acercaDeMi"} style={{textDecoration: "none", color: "black"}}>
+							Acerca de mí
+						</Link>
+					</div>
+
+					<div className="col">
+						Contacto
+					</div>
+				</div>
 			</div>
 		</nav>
+		<hr />
+		</div>
 	);
 };

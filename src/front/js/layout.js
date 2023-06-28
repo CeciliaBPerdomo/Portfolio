@@ -7,6 +7,8 @@ import { Demo } from "./pages/demo";
 import { Single } from "./pages/single";
 import injectContext from "./store/appContext";
 import { AboutMe } from "./pages/aboutMe.js"
+import { UXUICAC } from "./component/uxuicac.jsx";
+import { Proyectos } from "./component/todoslosproyectos.jsx"
 
 import { Navbar } from "./component/navbar";
 import { Footer } from "./component/footer";
@@ -26,6 +28,8 @@ const Layout = () => {
                         <Route element={<Home />} path="/" />
                         <Route element={<Demo />} path="/demo" />
                         <Route element={<AboutMe />} path="/acercaDeMi" />
+                        <Route element={<UXUICAC />} path="/uxuicac" />
+                        <Route element={<Proyectos />} path="/proyectos" />
                         <Route element={<Single />} path="/single/:theid" />
                         <Route element={<h1>Not found!</h1>} />
                     </Routes>
