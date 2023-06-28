@@ -35,7 +35,7 @@ const Redes = () => {
                         </a>
                     </div>
                 </div>
-</div>
+            </div>
       
         </>
     )

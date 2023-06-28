@@ -31,7 +31,9 @@ export const Navbar = () => {
 					</div>
 
 					<div className="col">
+					<Link to={"/contacto"} style={{textDecoration: "none", color: "black"}}>
 						Contacto
+					</Link>
 					</div>
 				</div>
 			</div>

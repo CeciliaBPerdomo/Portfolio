@@ -9,6 +9,7 @@ import injectContext from "./store/appContext";
 import { AboutMe } from "./pages/aboutMe.js"
 import { UXUICAC } from "./component/uxuicac.jsx";
 import { Proyectos } from "./component/todoslosproyectos.jsx"
+import { Contacto } from "./component/contacto.jsx";
 
 import { Navbar } from "./component/navbar";
 import { Footer } from "./component/footer";
@@ -30,7 +31,7 @@ const Layout = () => {
                         <Route element={<AboutMe />} path="/acercaDeMi" />
                         <Route element={<UXUICAC />} path="/uxuicac" />
                         <Route element={<Proyectos />} path="/proyectos" />
-                        <Route element={<Single />} path="/single/:theid" />
+                        <Route element={<Contacto />} path="/contacto" />
                         <Route element={<h1>Not found!</h1>} />
                     </Routes>
                     <Footer />
